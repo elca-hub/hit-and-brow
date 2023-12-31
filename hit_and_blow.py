@@ -51,8 +51,6 @@ while True:
 
 	hit_count, blow_count = hit_and_blow(user_input, ans_list)
 
-	print(hit_count, blow_count)
-
 	if hit_count == ans_range:
 		print(("1P" if not is_2p else "2P") + "の勝ちです！")
 		print("正解 : " + user_input)
